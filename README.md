@@ -1,1 +1,1 @@
-# Solution for module2 assignment of the coursera course: HTML, CSS, and Javascript for Web Developers 
+# Solution for assignments of coursera course: HTML, CSS, and Javascript for Web Developers 
