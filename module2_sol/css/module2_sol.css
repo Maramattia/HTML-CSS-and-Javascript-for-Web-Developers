@@ -2,32 +2,55 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 175%;
 }
 
-p {
-  border: 1px solid black;
+h2 {
+  float: right;
+  font-size: 150%;
+  border: 2px solid black;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+
+}
+
+#b1{
+  background-color: #F08080;
+ }
+ #b2{
   background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
+  color: white
+ }
+ #b3{
+  background-color: #EEE8AA;
+ }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+.container > div{
+  border: 2px solid black;
+  background-color: #999999;
+  margin: 15px;
+}
+p {
+
+  padding:  20px;
+  font-weight: bold;
+  color: black;
+  clear: both;
 }
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -68,10 +91,9 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -110,4 +132,3 @@ p {
     width: 100%;
   }
 }
-
