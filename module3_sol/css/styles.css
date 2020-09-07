@@ -1,0 +1,56 @@
+/** HEADER **/
+#header_nav {
+  background-color: #999;
+  border-radius:0;
+  border: 2px solid black;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica' , sans-serif;
+  color: #000;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin: 0 0 0 0 ;
+}
+
+.navbar-header #collapsable-nav #nav-list ul{
+  color: #fff;
+  border-color: 
+}
+
+.navbar-default .navbar-collapse ul li a{
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h2,#our-menu-title{
+  margin-top: 0px;
+  font-weight: bold ;
+  font-family: 'Helvetica' , sans-serif;
+  padding-top: 0;
+}
+
+#Chicken-tile , #Beef-tile , #Sushi-tile{
+  background-color: #999; 
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+
+#Chicken-tile h3 , #Beef-tile h3 , #Sushi-tile h3{
+  font-weight: bold; 
+}
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-default .navbar-collapse {
+    border-top: 2px solid black;
+  }
+  ul hr{
+    margin:0;
+    border-top: 2px solid #000;
+  }
+}
